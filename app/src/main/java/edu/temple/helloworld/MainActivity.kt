@@ -22,9 +22,7 @@ class MainActivity : AppCompatActivity() {
         MyButton = findViewById(R.id.clickMeButton)
         
         // Respond to button click event per specifications
-        MyButton.setOnClickListener {
-            Log.d("MainActivity", "Button Clicked")
-        }
+
 
     }
 }

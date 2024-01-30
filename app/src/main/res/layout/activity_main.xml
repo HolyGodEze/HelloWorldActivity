@@ -21,17 +21,19 @@
         android:layout_height="wrap_content"
         android:text="Click Me"
         tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="340dp" />
+        tools:layout_editor_absoluteY="341dp" />
 
     <EditText
         android:id="@+id/nameEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
         android:ems="10"
         android:hint="Enter your name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="240dp" />
+        app:layout_constraintBottom_toTopOf="@+id/clickMeButton"
+        app:layout_constraintEnd_toEndOf="@+id/clickMeButton"
+        app:layout_constraintStart_toStartOf="@+id/clickMeButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
